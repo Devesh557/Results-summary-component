@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Pale-blue);
+  }
+.main{
+  display: flex;
+    box-shadow: black;
+    border-radius: 2rem;
+    width: 650px;
+    background-color: var(--White);
+    
+}
+.container1{
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 2rem;
+    background-color: rgb(39, 39, 250);
+    width: 300px;
+    height: 450px;
+}
+.result{
+    width: 50%;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.result {
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+  }
+  .res{
+    text-align: center;
+    margin-left: 25%;
+    display: inline;
+    width: 100px;
+  }
+  .summary {
+    width: 50%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    float: right;
+  }
+  .circle{
+    width: 200px;
+    height: 200px;
+   
+    border-radius: 50%;
+    background-color: rgb(0, 0, 253);
+    margin-left: 15%;
+  }
+  h1 p{
+    text-align: center;
+  }
+  .grtsc{
+    text-align: center;
+    color: aliceblue;
+  }
+   #top{
+    top: 50px;
+    text-align: center;
+    color: aqua;
+    justify-content: center;
+    padding: 30px;
+
+ }
+ .outof{
+    text-align: center;
+    justify-content: center;
+ }
+ .container2{
+    display: flex;
+    margin-top: 50px;
+ }
+
+ .react > b{
+    color: lightcoral;
+    
+ }
+ .memo > b{
+    color: yellow;
+
+ }
+ .verb > b{
+
+    color: aqua;
+ }
+ .visu > b{
+    color: blue;
+ }
+ .btn{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 2rem;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    margin-left: 40px;
+    cursor: pointer;
+ }
+ #inl{
+    display: inline;
+    align-items: end;
+    float: right;
+}
+.grtsc{
+    margin-top: 70px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  width:200px;
+  padding: 5px;
+  
+}
+@media only screen and (max-width:375px){
+    body{
+      background-color: red;
+    }
+}
